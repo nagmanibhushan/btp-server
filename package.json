@@ -1,0 +1,19 @@
+{
+  "name": "hanaclouddb-nodejs",
+  "version": "1.0.0",
+  "description": "A node js app with sap hana clod",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/hana-client": "^2.9.28",
+    "@sap/hdbext": "^7.3.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
